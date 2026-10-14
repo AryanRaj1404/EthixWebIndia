@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ethixweb India
 
-## Getting Started
+A premium India-specific redesign of the Ethixweb website, built as a full-stack assessment project with a polished frontend, a real lead-capture backend, and a protected admin experience.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Ethixweb India reimagines the brand as a modern, credible, and conversion-focused web presence for Indian businesses. The project was designed to feel premium while staying practical: clear messaging, strong visual hierarchy, responsive layouts, real data handling, and a working administrative dashboard.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The experience includes a refreshed home page, dedicated services/about/contact pages, a functional enquiry form, database-backed lead storage, and admin controls for reviewing and managing submissions.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- India-specific brand positioning and storytelling
+- Premium, responsive, mobile-first UI
+- Modern landing page with strong CTA flow
+- Dedicated Services, About, and Contact pages
+- Working enquiry form with validation and spam protection
+- Real database storage for leads
+- Protected admin login
+- Admin dashboard for viewing, updating, and deleting enquiries
+- Clean component-based structure for maintainability
 
-## Learn More
+## Pages
 
-To learn more about Next.js, take a look at the following resources:
+### Home
+A visually polished landing page featuring:
+- Hero section with strong value proposition
+- Services overview
+- Process section
+- Featured work section
+- Brand positioning section
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Services
+A more detailed agency-style services page covering:
+- Brand & Website Design
+- Next.js Web Development
+- Lead Generation Pages
+- SEO-Ready Structure
+- Speed & Performance
+- Secure Backend Systems
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### About
+An India-focused brand story that explains the thinking behind the redesign and the philosophy behind the product experience.
 
-## Deploy on Vercel
+### Contact
+A modern enquiry page with:
+- Contact information cards
+- Styled form layout
+- Real lead submission flow
+- Success and error feedback
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Admin
+A protected dashboard for:
+- Signing in as admin
+- Viewing submitted leads
+- Updating lead status
+- Deleting entries
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Backend Highlights
+
+- Database-backed lead storage
+- Form validation with Zod
+- Honeypot-based spam protection
+- Secure admin authentication
+- JWT-based session cookie
+- Prisma-powered database access
+- Clean API routes for contact and admin operations
+
+## Tech Stack
+
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Backend:** Next.js API routes
+- **Database:** PostgreSQL
+- **ORM:** Prisma
+- **Validation:** Zod
+- **Authentication:** JWT
+- **Icons/UI:** Lucide React
+
+## Design Direction
+
+The visual direction is built around:
+- Premium but minimal presentation
+- Strong red-accent brand language
+- Clean spacing and typography
+- Trust-focused content structure
+- Indian business context instead of generic agency messaging
+
+## Project Goals
+
+The project was created to demonstrate:
+- strong product thinking
+- clean full-stack implementation
+- practical UI/UX design
+- real backend functionality
+- professional presentation quality
+
+## Status
+
+The application is designed as a production-style assessment build with a working frontend and backend foundation, suitable for deployment and review.
