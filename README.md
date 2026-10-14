@@ -56,6 +56,11 @@ A protected dashboard for:
 - Updating lead status
 - Deleting entries
 
+## Demo Admin Access
+URL: /admin/login  
+Email: admin@ethixweb.in  
+Password: admin@ethixweb
+
 ## Backend Highlights
 
 - Database-backed lead storage
